@@ -16,9 +16,9 @@ void QuickSortTemplateWithArea(std::vector<T>& list, int begin, int end)
 		return;
 
 	int mid = (begin + end) / 2;
-	int pivot = list[mid];
+	T pivot = list[mid];
 
-	std::vector<int> frontv, backv;
+	std::vector<T> frontv, backv;
 	for (auto it = begin; it < mid; ++it)
 	{
 		if (list[it] < pivot)

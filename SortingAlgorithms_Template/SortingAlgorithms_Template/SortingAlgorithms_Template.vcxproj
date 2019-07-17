@@ -128,12 +128,14 @@
     <ClInclude Include="InsertionSort_Template.h" />
     <ClInclude Include="MergeSort_Template.h" />
     <ClInclude Include="MyQuickSort_Vector_Int.h" />
+    <ClInclude Include="Name.h" />
     <ClInclude Include="QuickSort_Template.h" />
     <ClInclude Include="SelectionSort_Template.h" />
     <ClInclude Include="Vector_Additionals.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Name.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
